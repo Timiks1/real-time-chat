@@ -1,0 +1,137 @@
+﻿@page
+@model MyApp.Namespace.ChatModel
+@{
+    ViewData["Title"] = "Chat";
+    Layout = "_Layout";
+}
+
+<div class="chat-container">
+    <div class="chat-history" id="messagesList">
+        @foreach (var message in Model.Messages.OrderBy(m => m.Timestamp))
+        {
+            <div class="message">
+                <div class="message-info">
+                    <span class="message-user">@message.User</span>
+                    <span class="message-timestamp">@message.Timestamp.ToString("g")</span>
+                </div>
+                <div class="message-text">@message.Message</div>
+            </div>
+        }
+    </div>
+    <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Name" class="input-field" />
+        <input type="text" id="messageInput" placeholder="Message" class="input-field" />
+        <button id="sendButton" class="send-button">Send</button>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.9/signalr.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const connection = new signalR.HubConnectionBuilder()
+                .withUrl("/chatHub")
+                .build();
+
+            connection.on("ReceiveMessage", (user, message) => {
+                const msg = document.createElement("div");
+                msg.className = "message";
+                msg.innerHTML = `<div class="message-info"><span class="message-user">${user}</span><span class="message-timestamp">${new Date().toLocaleString()}</span></div><div class="message-text">${message}</div>`;
+                document.getElementById("messagesList").appendChild(msg);
+                msg.scrollIntoView();
+            });
+
+            connection.start().catch(err => console.error(err.toString()));
+
+            document.getElementById("sendButton").addEventListener("click", event => {
+                const user = document.getElementById("userInput").value;
+                const message = document.getElementById("messageInput").value;
+                connection.invoke("SendMessage", user, message).catch(err => console.error(err.toString()));
+                document.getElementById("messageInput").value = ''; // Очистка поля сообщения после отправки
+                event.preventDefault();
+            });
+        });
+    </script>
+}
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+
+    .chat-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        margin: 50px auto;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        height: 80vh; /* Фиксированная высота */
+        background: white;
+    }
+
+    .chat-history {
+        flex: 1;
+        padding: 20px;
+        overflow-y: auto;
+        background: #f9f9f9;
+    }
+
+    .message {
+        margin-bottom: 15px;
+    }
+
+    .message-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+
+    .message-user {
+        font-weight: bold;
+    }
+
+    .message-timestamp {
+        color: #aaa;
+        font-size: 0.9em;
+    }
+
+    .message-text {
+        background: #e1ffc7;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .chat-input {
+        display: flex;
+        padding: 10px;
+        background: #fff;
+        border-top: 1px solid #ccc;
+    }
+
+    .input-field {
+        flex: 1;
+        padding: 10px;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .send-button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background: #007bff;
+        color: white;
+        cursor: pointer;
+    }
+
+        .send-button:hover {
+            background: #0056b3;
+        }
+</style>
