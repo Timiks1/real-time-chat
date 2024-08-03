@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
-builder.Services.AddSignalR().AddAzureSignalR("Endpoint=https://test-task-net-blazor-reenbit-timofey-prozor.service.signalr.net;AccessKey=MpfzXybJJt/Ej9tpY2Nj6/BFUBbzMFuwm0+0yyGOK6A=;Version=1.0;");
+builder.Services.AddSignalR().AddAzureSignalR("");
 builder.Services.AddDbContext<ChatContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
