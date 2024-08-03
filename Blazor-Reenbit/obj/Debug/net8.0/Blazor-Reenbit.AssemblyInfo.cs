@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Blazor-Reenbit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34abf541d092de0d4ac37fd26c2ec420e0dc39b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+630a5e919ed2870319ffa317c3eb0bdf2a4c3d96")]
 [assembly: System.Reflection.AssemblyProductAttribute("Blazor-Reenbit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Blazor-Reenbit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
