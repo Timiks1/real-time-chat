@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pmVNaMmiGoHFImPJcpk77YAP8+tTG36aJSpSUF1F1AqPm/heIQq+xlBFnTuIpnV5YU/XDN7r9lqzENGW1F2zyg==",
+  "dgSpecHash": "T5OvUMoHjGf6kEwtpM47xh3Ei5tHmJY/ZfFg9BzsWK58eG5/cbnn0OqIXjKuzy1R/fyb1+mHvQJKbDaNTadDdQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Blazor-Reenbit.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Tim\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
-    "C:\\Users\\Tim\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\Tim\\.nuget\\packages\\azure.ai.textanalytics\\5.3.0\\azure.ai.textanalytics.5.3.0.nupkg.sha512",
+    "C:\\Users\\Tim\\.nuget\\packages\\azure.core\\1.40.0\\azure.core.1.40.0.nupkg.sha512",
+    "C:\\Users\\Tim\\.nuget\\packages\\azure.identity\\1.12.0\\azure.identity.1.12.0.nupkg.sha512",
     "C:\\Users\\Tim\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Tim\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Tim\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

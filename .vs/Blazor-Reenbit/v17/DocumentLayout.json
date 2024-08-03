@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\properties\\publishprofiles\\test-task-net-blazor-reenbit-timofey-prozor - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\properties\\publishprofiles\\test-task-net-blazor-reenbit-timofey-prozor - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\pages\\chat.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\pages\\chat.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\properties\\publishprofiles\\test-task-net-blazor-reenbit-timofey-prozor - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\properties\\publishprofiles\\test-task-net-blazor-reenbit-timofey-prozor - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\pages\\chat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\pages\\chat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\pages\\chat.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\pages\\chat.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\services\\sentimentanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\services\\sentimentanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\database\\chatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\database\\chatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\database\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\database\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -43,20 +47,28 @@
       "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Migrations\\20240802125607_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Blazor-Reenbit\\Migrations\\20240802125607_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\database\\chatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\database\\chatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\database\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\database\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|c:\\users\\tim\\source\\repos\\blazor-reenbit\\blazor-reenbit\\migrations\\20240802125607_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F549F809-4560-4117-820A-CF2E0C9F5CFF}|Blazor-Reenbit\\Blazor-Reenbit.csproj|solutionrelative:blazor-reenbit\\migrations\\20240802125607_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,76 +78,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Blazor-Reenbit\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Blazor-Reenbit\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-02T14:33:41.22Z",
+              "DocumentIndex": 0,
+              "Title": "Test-Task-Net-Blazor-Reenbit-Timofey-Prozor - Web Deploy.pubxml",
+              "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Properties\\PublishProfiles\\Test-Task-Net-Blazor-Reenbit-Timofey-Prozor - Web Deploy.pubxml",
+              "RelativeDocumentMoniker": "Blazor-Reenbit\\Properties\\PublishProfiles\\Test-Task-Net-Blazor-Reenbit-Timofey-Prozor - Web Deploy.pubxml",
+              "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Properties\\PublishProfiles\\Test-Task-Net-Blazor-Reenbit-Timofey-Prozor - Web Deploy.pubxml",
+              "RelativeToolTip": "Blazor-Reenbit\\Properties\\PublishProfiles\\Test-Task-Net-Blazor-Reenbit-Timofey-Prozor - Web Deploy.pubxml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAASwCMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-08-03T14:16:41.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Test-Task-Net-Blazor-Reenbit-Timofey-Prozor - Web Deploy.pubxml",
+              "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Properties\\PublishProfiles\\Test-Task-Net-Blazor-Reenbit-Timofey-Prozor - Web Deploy.pubxml",
+              "RelativeDocumentMoniker": "Blazor-Reenbit\\Properties\\PublishProfiles\\Test-Task-Net-Blazor-Reenbit-Timofey-Prozor - Web Deploy.pubxml",
+              "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Properties\\PublishProfiles\\Test-Task-Net-Blazor-Reenbit-Timofey-Prozor - Web Deploy.pubxml",
+              "RelativeToolTip": "Blazor-Reenbit\\Properties\\PublishProfiles\\Test-Task-Net-Blazor-Reenbit-Timofey-Prozor - Web Deploy.pubxml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-08-03T14:16:41.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Blazor-Reenbit\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Blazor-Reenbit\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-03T13:51:54.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Chat.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Pages\\Chat.cshtml.cs",
               "RelativeDocumentMoniker": "Blazor-Reenbit\\Pages\\Chat.cshtml.cs",
               "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Pages\\Chat.cshtml.cs",
               "RelativeToolTip": "Blazor-Reenbit\\Pages\\Chat.cshtml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T12:49:50.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Blazor-Reenbit\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\appsettings.Development.json",
-              "RelativeToolTip": "Blazor-Reenbit\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAC+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-02T12:15:52.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\appsettings.json",
               "RelativeDocumentMoniker": "Blazor-Reenbit\\appsettings.json",
               "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\appsettings.json",
               "RelativeToolTip": "Blazor-Reenbit\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-02T12:15:18.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "Blazor-Reenbit\\Hubs\\ChatHub.cs",
               "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "Blazor-Reenbit\\Hubs\\ChatHub.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T12:08:21.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "ChatMessage.cs",
               "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\database\\ChatMessage.cs",
               "RelativeDocumentMoniker": "Blazor-Reenbit\\database\\ChatMessage.cs",
@@ -148,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "ChatContext.cs",
               "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\database\\ChatContext.cs",
               "RelativeDocumentMoniker": "Blazor-Reenbit\\database\\ChatContext.cs",
@@ -161,41 +186,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Chat.cshtml",
               "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Pages\\Chat.cshtml",
               "RelativeDocumentMoniker": "Blazor-Reenbit\\Pages\\Chat.cshtml",
               "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Pages\\Chat.cshtml",
               "RelativeToolTip": "Blazor-Reenbit\\Pages\\Chat.cshtml",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAiwIgAAAAIAAAA",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAAAMYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-02T12:49:12.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Blazor-Reenbit\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Blazor-Reenbit\\Pages\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T12:23:44.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "SentimentAnalysisService.cs",
+              "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Services\\SentimentAnalysisService.cs",
+              "RelativeDocumentMoniker": "Blazor-Reenbit\\Services\\SentimentAnalysisService.cs",
+              "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Services\\SentimentAnalysisService.cs",
+              "RelativeToolTip": "Blazor-Reenbit\\Services\\SentimentAnalysisService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T12:59:01.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Program.cs",
               "RelativeDocumentMoniker": "Blazor-Reenbit\\Program.cs",
               "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Program.cs",
               "RelativeToolTip": "Blazor-Reenbit\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACsAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T12:05:41.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Blazor-Reenbit\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Blazor-Reenbit\\Pages\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-02T12:23:44.597Z",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Blazor-Reenbit\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\appsettings.Development.json",
+              "RelativeToolTip": "Blazor-Reenbit\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-02T12:15:52.694Z",
               "EditorCaption": ""
             },
             {
@@ -206,14 +257,14 @@
               "RelativeDocumentMoniker": "Blazor-Reenbit\\Pages\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "Blazor-Reenbit\\Pages\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T12:23:42.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "20240802125607_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\Migrations\\20240802125607_InitialCreate.cs",
               "RelativeDocumentMoniker": "Blazor-Reenbit\\Migrations\\20240802125607_InitialCreate.cs",
@@ -226,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "chat.js",
               "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\wwwroot\\js\\chat.js",
               "RelativeDocumentMoniker": "Blazor-Reenbit\\wwwroot\\js\\chat.js",
@@ -239,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Tim\\source\\repos\\Blazor-Reenbit\\Blazor-Reenbit\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Blazor-Reenbit\\wwwroot\\css\\site.css",

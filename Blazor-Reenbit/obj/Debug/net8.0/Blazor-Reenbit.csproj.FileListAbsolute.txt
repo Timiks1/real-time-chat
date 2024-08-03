@@ -68,9 +68,7 @@ C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\obj\Debug\net8.0\staticw
 C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Blazor-Reenbit.props
 C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Blazor-Reenbit.props
 C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\obj\Debug\net8.0\scopedcss\bundle\Blazor-Reenbit.styles.css
-C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\obj\Debug\net8.0\scopedcss\projectbundle\Blazor-Reenbit.bundle.scp.css
 C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\obj\Debug\net8.0\Blazor-R.5454C123.Up2Date
 C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\obj\Debug\net8.0\Blazor-Reenbit.dll
 C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\obj\Debug\net8.0\refint\Blazor-Reenbit.dll
@@ -144,3 +142,7 @@ C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\bin\Debug\net8.0\ru\Micr
 C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\obj\Debug\net8.0\Blazor-Reenbit.sourcelink.json
+C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\obj\Debug\net8.0\scopedcss\projectbundle\Blazor-Reenbit.bundle.scp.css
+C:\Users\Tim\source\repos\Blazor-Reenbit\Blazor-Reenbit\bin\Debug\net8.0\Azure.AI.TextAnalytics.dll

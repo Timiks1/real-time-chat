@@ -9,10 +9,24 @@
     <div class="chat-history" id="messagesList">
         @foreach (var message in Model.Messages.OrderBy(m => m.Timestamp))
         {
-            <div class="message">
+            var sentimentClass = "neutral-message";
+            if (message.SentimentScore.HasValue)
+            {
+                if (message.SentimentScore.Value > 0.6)
+                {
+                    sentimentClass = "positive-message";
+                }
+                else if (message.SentimentScore.Value < 0.4)
+                {
+                    sentimentClass = "negative-message";
+                }
+            }
+
+            <div class="message @sentimentClass">
                 <div class="message-info">
                     <span class="message-user">@message.User</span>
                     <span class="message-timestamp">@message.Timestamp.ToString("g")</span>
+                    <span class="message-sentiment">Sentiment: @message.SentimentScore?.ToString("F2")</span>
                 </div>
                 <div class="message-text">@message.Message</div>
             </div>
@@ -33,22 +47,52 @@
                 .withUrl("/chatHub")
                 .build();
 
-            connection.on("ReceiveMessage", (user, message) => {
+            connection.on("ReceiveMessage", (user, message, sentimentScore) => {
                 const msg = document.createElement("div");
                 msg.className = "message";
-                msg.innerHTML = `<div class="message-info"><span class="message-user">${user}</span><span class="message-timestamp">${new Date().toLocaleString()}</span></div><div class="message-text">${message}</div>`;
+                let sentimentClass = "neutral-message";
+                if (sentimentScore > 0.6) {
+                    sentimentClass = "positive-message";
+                } else if (sentimentScore < 0.4) {
+                    sentimentClass = "negative-message";
+                }
+                msg.classList.add(sentimentClass);
+                msg.innerHTML = `
+                            <div class="message-info">
+                                <span class="message-user">${user}</span>
+                                <span class="message-timestamp">${new Date().toLocaleString()}</span>
+                                <span class="message-sentiment">Sentiment: ${sentimentScore.toFixed(2)}</span>
+                            </div>
+                            <div class="message-text">${message}</div>`;
                 document.getElementById("messagesList").appendChild(msg);
                 msg.scrollIntoView();
             });
 
             connection.start().catch(err => console.error(err.toString()));
 
-            document.getElementById("sendButton").addEventListener("click", event => {
+            function sendMessage() {
                 const user = document.getElementById("userInput").value;
                 const message = document.getElementById("messageInput").value;
+
+                if (!user || !message) {
+                    alert("Please enter both name and message.");
+                    return;
+                }
+
                 connection.invoke("SendMessage", user, message).catch(err => console.error(err.toString()));
-                document.getElementById("messageInput").value = ''; // Очистка поля сообщения после отправки
+                document.getElementById("messageInput").value = '';
+            }
+
+            document.getElementById("sendButton").addEventListener("click", event => {
+                sendMessage();
                 event.preventDefault();
+            });
+
+            document.getElementById("messageInput").addEventListener("keypress", event => {
+                if (event.key === "Enter") {
+                    sendMessage();
+                    event.preventDefault();
+                }
             });
         });
     </script>
@@ -71,7 +115,7 @@
         border-radius: 8px;
         overflow: hidden;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        height: 80vh; /* Фиксированная высота */
+        height: 80vh;
         background: white;
     }
 
@@ -101,8 +145,13 @@
         font-size: 0.9em;
     }
 
+    .message-sentiment {
+        color: #888;
+        font-size: 0.9em;
+        margin-left: 10px;
+    }
+
     .message-text {
-        background: #e1ffc7;
         padding: 10px;
         border-radius: 5px;
     }
@@ -134,4 +183,16 @@
         .send-button:hover {
             background: #0056b3;
         }
+
+    .positive-message .message-text {
+        background: #e1ffc7;
+    }
+
+    .negative-message .message-text {
+        background: #ffcccc;
+    }
+
+    .neutral-message .message-text {
+        background: #e0e0e0;
+    }
 </style>

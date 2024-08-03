@@ -1,7 +1,7 @@
 ﻿using Blazor_Reenbit.database;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.EntityFrameworkCore; // Добавьте эту строку
+using Microsoft.EntityFrameworkCore;
 
 namespace MyApp.Namespace
 {

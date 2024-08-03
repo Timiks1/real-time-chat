@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2024-08-03T14:13:39.5127017Z"
+    },
+    "signalr1": {
+      "restored": true,
+      "restoreTime": "2024-08-03T14:14:25.9780941Z"
+    }
+  },
+  "parameters": {
+    "signalr1.resourceGroupName": {
+      "Name": "signalr1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Reenbit_resource"
+    },
+    "signalr1.subscriptionId": {
+      "Name": "signalr1.subscriptionId",
+      "Type": "subscription",
+      "Value": "9d79ee34-8e14-4e71-b58e-33d6b8d9414b"
+    }
+  }
+}

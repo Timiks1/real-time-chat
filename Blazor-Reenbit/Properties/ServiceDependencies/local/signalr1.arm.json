@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "resourceGroupName": {
+      "type": "string",
+      "defaultValue": "Reenbit_resource",
+      "metadata": {
+        "_parameterType": "resourceGroup",
+        "description": "Имя группы ресурсов для ресурса. Рекомендуется поместить ресурсы в одну группу ресурсов для более удобного отслеживания."
+      }
+    },
+    "resourceGroupLocation": {
+      "type": "string",
+      "defaultValue": "polandcentral",
+      "metadata": {
+        "_parameterType": "location",
+        "description": "Расположение группы ресурсов. Группы ресурсов и ресурсы могут находиться в различных расположениях."
+      }
+    },
+    "resourceLocation": {
+      "type": "string",
+      "defaultValue": "[parameters('resourceGroupLocation')]",
+      "metadata": {
+        "_parameterType": "location",
+        "description": "Расположение ресурса. По умолчанию используется расположение группы ресурсов, если это не поддерживается поставщиком ресурсов."
+      }
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Resources/resourceGroups",
+      "name": "[parameters('resourceGroupName')]",
+      "location": "[parameters('resourceGroupLocation')]",
+      "apiVersion": "2019-10-01"
+    },
+    {
+      "type": "Microsoft.Resources/deployments",
+      "name": "[concat(parameters('resourceGroupName'), 'Deployment', uniqueString(concat('Test-Task-Net-Blazor-Reenbit-Timofey-Prozor', subscription().subscriptionId)))]",
+      "resourceGroup": "[parameters('resourceGroupName')]",
+      "apiVersion": "2019-10-01",
+      "dependsOn": [
+        "[parameters('resourceGroupName')]"
+      ],
+      "properties": {
+        "mode": "Incremental",
+        "template": {
+          "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+          "contentVersion": "1.0.0.0",
+          "resources": [
+            {
+              "sku": {
+                "name": "Premium_P1",
+                "tier": "Premium",
+                "size": "P1",
+                "capacity": 1
+              },
+              "location": "[parameters('resourceLocation')]",
+              "name": "Test-Task-Net-Blazor-Reenbit-Timofey-Prozor",
+              "type": "Microsoft.SignalRService/SignalR",
+              "apiVersion": "2018-10-01"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "_dependencyType": "signalr.azure"
+  }
+}

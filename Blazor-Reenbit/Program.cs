@@ -1,14 +1,15 @@
 using Blazor_Reenbit.database;
 using Blazor_Reenbit.Hubs;
+using Blazor_Reenbit.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddSignalR().AddAzureSignalR("Endpoint=https://test-task-net-blazor-reenbit-timofey-prozor.service.signalr.net;AccessKey=MpfzXybJJt/Ej9tpY2Nj6/BFUBbzMFuwm0+0yyGOK6A=;Version=1.0;");
 builder.Services.AddDbContext<ChatContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("CorsPolicy",
@@ -17,9 +18,13 @@ builder.Services.AddCors(options =>
     .AllowCredentials()
     .WithOrigins("http://localhost:4200"));
 });
+
+builder.Services.AddSingleton(new SentimentAnalysisService(
+    builder.Configuration["TextAnalytics:ApiKey"],
+    builder.Configuration["TextAnalytics:Endpoint"]));
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
@@ -34,12 +39,10 @@ app.UseAuthorization();
 app.MapRazorPages();
 app.MapHub<ChatHub>("/chatHub");
 
-// Redirect to Chat page by default
 app.MapGet("/", context =>
 {
     context.Response.Redirect("/Chat");
     return Task.CompletedTask;
 });
 
-app.Run();
 app.Run();

@@ -2,7 +2,25 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Azure.Core/1.38.0": {
+      "Azure.AI.TextAnalytics/5.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.33.0",
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "System.Text.Json": "4.7.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.AI.TextAnalytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.AI.TextAnalytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Core/1.40.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
@@ -25,10 +43,10 @@
           }
         }
       },
-      "Azure.Identity/1.11.4": {
+      "Azure.Identity/1.12.0": {
         "type": "package",
         "dependencies": {
-          "Azure.Core": "1.38.0",
+          "Azure.Core": "1.40.0",
           "Microsoft.Identity.Client": "4.61.3",
           "Microsoft.Identity.Client.Extensions.Msal": "4.61.3",
           "System.Memory": "4.5.4",
@@ -3241,16 +3259,32 @@
     }
   },
   "libraries": {
-    "Azure.Core/1.38.0": {
-      "sha512": "IuEgCoVA0ef7E4pQtpC3+TkPbzaoQfa77HlfJDmfuaJUCVJmn7fT0izamZiryW5sYUFKizsftIxMkXKbgIcPMQ==",
+    "Azure.AI.TextAnalytics/5.3.0": {
+      "sha512": "QFGaADxfpEcvUPGqIo2CaXUiR00JN1sU14cgmo4wLgizP7v5WGJT9DYqFrzOBPO/tDYaup9mE4secRahe5xVcw==",
       "type": "package",
-      "path": "azure.core/1.38.0",
+      "path": "azure.ai.textanalytics/5.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.core.1.38.0.nupkg.sha512",
+        "azure.ai.textanalytics.5.3.0.nupkg.sha512",
+        "azure.ai.textanalytics.nuspec",
+        "azureicon.png",
+        "lib/netstandard2.0/Azure.AI.TextAnalytics.dll",
+        "lib/netstandard2.0/Azure.AI.TextAnalytics.xml"
+      ]
+    },
+    "Azure.Core/1.40.0": {
+      "sha512": "eOx6wk3kQ3SCnoAj7IytAu/d99l07PdarmUc+RmMkVOTkcQ3s+UQEaGzMyEqC2Ua4SKnOW4Xw/klLeB5V2PiSA==",
+      "type": "package",
+      "path": "azure.core/1.40.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.core.1.40.0.nupkg.sha512",
         "azure.core.nuspec",
         "azureicon.png",
         "lib/net461/Azure.Core.dll",
@@ -3263,16 +3297,16 @@
         "lib/netstandard2.0/Azure.Core.xml"
       ]
     },
-    "Azure.Identity/1.11.4": {
-      "sha512": "Sf4BoE6Q3jTgFkgBkx7qztYOFELBCo+wQgpYDwal/qJ1unBH73ywPztIJKXBXORRzAeNijsuxhk94h0TIMvfYg==",
+    "Azure.Identity/1.12.0": {
+      "sha512": "OBIM3aPz8n9oEO5fdnee+Vsc5Nl4W3FeslPpESyDiyByntQI5BAa76KD60eFXm9ulevnwxGZP9YXL8Y+paI5Uw==",
       "type": "package",
-      "path": "azure.identity/1.11.4",
+      "path": "azure.identity/1.12.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.identity.1.11.4.nupkg.sha512",
+        "azure.identity.1.12.0.nupkg.sha512",
         "azure.identity.nuspec",
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
@@ -9266,6 +9300,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Azure.AI.TextAnalytics >= 5.3.0",
+      "Azure.Identity >= 1.12.0",
       "Microsoft.AspNetCore.SignalR >= 1.1.0",
       "Microsoft.Azure.CognitiveServices.Language.TextAnalytics >= 4.0.0",
       "Microsoft.Azure.SignalR >= 1.26.0",
@@ -9324,6 +9360,14 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Azure.AI.TextAnalytics": {
+            "target": "Package",
+            "version": "[5.3.0, )"
+          },
+          "Azure.Identity": {
+            "target": "Package",
+            "version": "[1.12.0, )"
+          },
           "Microsoft.AspNetCore.SignalR": {
             "target": "Package",
             "version": "[1.1.0, )"
